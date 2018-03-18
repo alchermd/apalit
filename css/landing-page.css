@@ -12,16 +12,22 @@ h6 {
   font-weight: 700;
 }
 
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("https://images.pexels.com/photos/335887/pexels-photo-335887.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  text-shadow: 4px 4px 2px black;
 }
 
 header.masthead .overlay {
@@ -46,6 +52,10 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+header.masthead p {
+  font-size: 1.8rem;
 }
 
 .showcase .showcase-text {
