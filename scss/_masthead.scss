@@ -1,7 +1,8 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url("https://images.pexels.com/photos/335887/pexels-photo-335887.jpeg?w=940&h=650&auto=compress&cs=tinysrgb")
+    no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -24,4 +25,9 @@ header.masthead {
       font-size: 3rem;
     }
   }
+  p {
+    font-size: 1.8rem;
+  }
+
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
 }
